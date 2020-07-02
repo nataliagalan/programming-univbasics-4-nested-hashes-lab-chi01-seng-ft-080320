@@ -1,4 +1,4 @@
-require 'pry'
+
 def hopper
 	programmer_hash =
  		{
@@ -133,6 +133,6 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
- programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
- binding.pry
+ programmer_hash[:dennis_ritchie][:languages[1]] = "Assembly"
+
 end
